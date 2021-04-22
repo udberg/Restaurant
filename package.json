@@ -1,0 +1,31 @@
+{
+  "name": "NigerianRestaurant",
+  "version": "1.0.0",
+  "description": "![Microverse](https://img.shields.io/badge/-Microverse-6F23FF?style=for-the-badge)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production webpack --watch",
+    "build-dev": "webpack --watch",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udberg/NigerianRestaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udberg/NigerianRestaurant/issues"
+  },
+  "homepage": "https://github.com/udberg/NigerianRestaurant#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
