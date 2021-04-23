@@ -9,8 +9,8 @@ This project was meant to enhance the knowledge on DOM manipulation by dynamical
 In this project, I have created a web page of a local restaurant built it using javascript & Webpack. This web page contains three tabs :
 
 - A home page.
-- A service page.
-- A visit-us page.
+- A menu page.
+- A contact page.
 
 ## Library Directory 📙
 
@@ -33,11 +33,19 @@ In this project, I have created a web page of a local restaurant built it using 
 ## Built With 🛠
 
 ```
-- Javascript
 - HTML/CSS
-- MDBoostrap
-- VS Code
+- Javascript/ES6
+- Webpack
+- Bootstrap
 ```
+
+## Contributing
+
+- Fork the project
+- Create your feature branch `git checkout -b awesome-feature`
+- Commit your changes `git commit -m 'Awesome feature'`
+- Push it `git push -u origin awesome-feature`
+- Open a pull request using this branch
 
 ## Authors
 
