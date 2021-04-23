@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/udberg/NigerianRestaurant#readme",
   "devDependencies": {
-    "css-loader": "^5.2.4",
+"css-loader": "^5.2.4",
     "file-loader": "^6.2.0",
     "sass": "^1.32.11",
     "sass-loader": "^11.0.1",
@@ -29,5 +29,10 @@
     "webpack": "^5.35.0",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
