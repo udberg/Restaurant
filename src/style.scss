@@ -1,0 +1,44 @@
+.container-fluid {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .nav-item .nav-link.active {
+    background-color: #17a2b8;
+  }
+}
+
+header {
+  background: url('images/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .showcase {
+    min-height: 500px;
+    max-height: 100vh;
+
+    .showcase-text {
+      background-color: rgba(0, 0, 0, 0.425);
+      color: #fff;
+      text-shadow: 1px 1px 1px rgba(183, 183, 183, 1);
+
+      h1 {
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+main {
+  article {
+    min-width: 300px;
+    max-width: 380px;
+  }
+}
