@@ -1,56 +1,25 @@
-/* eslint-disable */
-const path = require('path');
+const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 
 module.exports = {
-  entry: './src/index.ts',
-  output: {
-    filename: 'main.js',
-    path: path.join(__dirname, 'dist'),
-  },
+  mode: mode,
   module: {
     rules: [
       {
-        test: /\.ts$/,
-        use: 'ts-loader',
-        exclude: '/node_modules',
-      },
-      {
-        test: /\.scss$/,
+        test: /\.s[ac]ss$/i,
         use: [
-          'style-loader',
-          'css-loader',
-          {
-            loader: 'sass-loader',
-            options: {
-              implementation: require('sass'),
-            },
-          },
+          "style-loader",
+          "css-loader",
+          "sass-loader",
         ],
-      },
-      {
+	  },
+	  {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]',
-        },
-      },
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource',
-      },
-      {
-        test: /\.ts$/,
-        loader: 'babel-loader',
-      },
-      {
-        test: /\.js$/,
-        use: ['source-map-loader'],
-        enforce: 'pre',
-      },
-    ],
+        use: ['file-loader']
+      }
+    ]
   },
-  resolve: {
-    extensions: ['.ts', '.js'],
-  },
+  devtool: 'source-map',
+  devServer: {
+    contentBase: './dist'
+  }
 };
-/* eslint-enable */
