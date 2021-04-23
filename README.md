@@ -29,7 +29,7 @@ In this project, I have created a web page of a local restaurant built it using 
 
 ## Screenshot
 
-![img](./)
+![img](./dist/ce18c6270fbab6eb888fbc05622c20fc.jpg)
 
 ## Built With 🛠
 
