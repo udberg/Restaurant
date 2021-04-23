@@ -1,25 +1,33 @@
-const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
+const path = require('path');
 
 module.exports = {
-  mode: mode,
+  entry: {
+    main: './src/index.js',
+  },
+  output: {
+    filename: '[name].js',
+    path: path.join(__dirname, 'dist'),
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    hot: true,
+    port: 3000,
+  },
   module: {
     rules: [
       {
-        test: /\.s[ac]ss$/i,
-        use: [
-          "style-loader",
-          "css-loader",
-          "sass-loader",
-        ],
-	  },
-	  {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        use: ['file-loader']
-      }
-    ]
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.s[ca]ss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader'],
+      },
+    ],
   },
-  devtool: 'source-map',
-  devServer: {
-    contentBase: './dist'
-  }
 };
