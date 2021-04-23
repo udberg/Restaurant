@@ -1,32 +1,31 @@
 const path = require('path');
 
 module.exports = {
-  entry: {
-    main: './src/index.js',
-  },
+  mode: 'development',
+  entry: './src/js/index.js',
   output: {
-    filename: '[name].js',
-    path: path.join(__dirname, 'dist'),
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
   },
+  devtool: 'inline-source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    hot: true,
-    port: 3000,
+    contentBase: './dist',
   },
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        test: /\.scss$/i,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
       },
       {
-        test: /\.s[ca]ss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-      {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: ['file-loader'],
+        test: /\.jpe?g$/i,
+        use: [
+          'url-loader',
+        ],
       },
     ],
   },
