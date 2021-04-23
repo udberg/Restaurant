@@ -4,7 +4,7 @@
 
 ## Description
 
-This project was meant to enhance the knowledge on DOM manipulation by dynamically rendering a simple restaurant homepage from where Nigeria. I have built it using Javascript & Webpack. This web page contains three tabs ( Home, Service & Visit-us).
+This project was meant to enhance the knowledge on DOM manipulation by dynamically rendering a simple restaurant homepage from where Nigeria. I have built it using Javascript & Webpack. This web page contains three tabs ( home, menu and contact pages).
 
 In this project, I have created a web page of a local restaurant built it using javascript & Webpack. This web page contains three tabs :
 
