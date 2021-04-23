@@ -1,33 +1,56 @@
+/* eslint-disable */
 const path = require('path');
 
 module.exports = {
-  entry: {
-    main: './src/index.js',
-  },
+  entry: './src/index.ts',
   output: {
-    filename: '[name].js',
+    filename: 'main.js',
     path: path.join(__dirname, 'dist'),
-  },
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    hot: true,
-    port: 3000,
   },
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        test: /\.ts$/,
+        use: 'ts-loader',
+        exclude: '/node_modules',
       },
       {
-        test: /\.s[ca]ss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              implementation: require('sass'),
+            },
+          },
+        ],
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: ['file-loader'],
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+        },
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.ts$/,
+        loader: 'babel-loader',
+      },
+      {
+        test: /\.js$/,
+        use: ['source-map-loader'],
+        enforce: 'pre',
       },
     ],
   },
+  resolve: {
+    extensions: ['.ts', '.js'],
+  },
 };
+/* eslint-enable */
