@@ -19,6 +19,7 @@ In this project, I have created a web page of a local restaurant built it using 
 | [Live Demo](#live-demo)     |
 | [Screenshot](#screenshot)   |
 | [Built With](#built-with-🛠) |
+| [Contributiong](#contributing🛠) |
 | [Authors](#authors)         |
 | [License](#license)         |
 
