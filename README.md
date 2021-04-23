@@ -16,20 +16,17 @@ In this project, I have created a web page of a local restaurant built it using 
 
 | Contents                    |
 | --------------------------- |
-| [Live Demo](#live-demo)     |
+
 | [Screenshot](#screenshot)   |
 | [Built With](#built-with-🛠) |
-| [Contributiong](#contributing🛠) |
+| [Contributing](#contributing🛠) |
 | [Authors](#authors)         |
 | [License](#license)         |
 
-## Live Demo
-
-[Live demo]()
 
 ## Screenshot
 
-![img](./dist/ce18c6270fbab6eb888fbc05622c20fc.jpg)
+![img](./)
 
 ## Built With 🛠
 
@@ -53,7 +50,7 @@ In this project, I have created a web page of a local restaurant built it using 
 ### 👨‍💻 Uduak John
 
 [![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/udberg) <br>
-[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)]() <br>
+[![LINKEDIN](https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/juduak/) <br>
 [![EMAIL](https://img.shields.io/badge/-EMAIL-D14836?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:udberg@icloud.com) <br>
 [![TWITTER](https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/juduak_)
 
@@ -61,7 +58,7 @@ In this project, I have created a web page of a local restaurant built it using 
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/udberg/NigerianRestaurant/issues).
 
 ### Show your support
 
