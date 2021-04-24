@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/udberg/NigerianRestaurant/issues"
   },
-  "homepage": "https://github.com/udberg/NigerianRestaurant#readme"
+  "homepage": "https://github.com/udberg/NigerianRestaurant#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
