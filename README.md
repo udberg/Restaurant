@@ -24,10 +24,6 @@ In this project, I have created a web page of a local restaurant built it using 
 | [License](#license)         |
 
 
-// ## Screenshot
-
-![img](./)
-
 ## Built With 🛠
 
 ```
