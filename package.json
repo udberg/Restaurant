@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production webpack --watch",
+    "build": "webpack --watch",
     "build-dev": "webpack --watch",
     "start": "webpack serve"
   },
@@ -30,6 +30,9 @@
   },
   "homepage": "https://github.com/udberg/NigerianRestaurant#readme",
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^4.6.0",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
