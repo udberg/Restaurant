@@ -23,9 +23,9 @@ In this project, I have created a web page of a local restaurant built it using 
 | [Authors](#authors)         |
 | [License](#license)         |
 
-// ## Screenshot
+ ## Screenshot
 
-![img](./5'6_Cuisines_&_Restaurant_-_2021-04-26_09.17.10.png')
+![img](./5'6_Cuisines_&_Restaurant_-_2021-04-26_09.17.10.png)
 
 ## Built With 🛠
 
