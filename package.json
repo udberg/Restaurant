@@ -1,0 +1,38 @@
+{
+  "name": "NigerianRestaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "build-dev": "webpack --watch",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udberg/NigerianRestaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udberg/NigerianRestaurant/issues"
+  },
+  "homepage": "https://github.com/udberg/NigerianRestaurant#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
