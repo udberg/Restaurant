@@ -17,11 +17,16 @@ In this project, I have created a web page of a local restaurant built it using 
 | Contents                    |
 | --------------------------- |
 
+| [Live Demo](#live-demo)     |
 | [Screenshot](#screenshot)   |
 | [Built With](#built-with-🛠) |
 | [Contributing](#contributing🛠) |
 | [Authors](#authors)         |
 | [License](#license)         |
+
+## Live Demo
+
+[Live demo](https://udberg.github.io/NigerianRestaurant/)
 
  ## Screenshot
 
